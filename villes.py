@@ -402,25 +402,3 @@ butt_quit.grid(row = 6, columnspan = 2, sticky = 'e')
 
 fen.mainloop()	# démarrage du réceptionnaire d’événements
 fen.destroy()	# destruction (fermeture) de la fenêtre
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
