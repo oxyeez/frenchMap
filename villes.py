@@ -85,7 +85,7 @@ def place_cities() :
 	can.grid_forget()
 	can = Canvas(fen, height=int((map_height+2)*ratio_lat_km*dict_sizes[dim.get()][0]), width=int((map_width+2)*ratio_lon_km*dict_sizes[dim.get()][0]))
 	#on charge l'image qui correspond à la résolution demandée
-	background = PhotoImage(file = 'map_france_'+dim.get()+'.gif')
+	background = PhotoImage(file = 'Ressources/map_france_'+dim.get()+'.gif')
 	#on affiche l'image sur le canvas
 	can.create_image(0, 0, anchor = 'nw', image = background)
 	can.grid(row = 1, columnspan = 2)
